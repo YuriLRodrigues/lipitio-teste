@@ -7,7 +7,7 @@ services:
     environment:
       - POSTGRESQL_USERNAME=docker
       - POSTGRESQL_PASSWORD=docker
-      - POSTGRESQL_DATABASE=lupitco_application
+      - POSTGRESQL_DATABASE=lupitio_application
     volumes:
       - 'postgresql_data:/bitnami/postgresql'
 
